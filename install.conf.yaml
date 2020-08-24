@@ -1,14 +1,14 @@
 - defaults:
-  link:
-    relink: true
+    link:
+      relink: true
 
 - clean: ['~']
 
 - link:
-  ~/.bash_alias: bash_alias
-  ~/.bash_profile: bash_profile
-  ~/.bashrc: bashrc
-  ~/.gitconfig: gitconfig
+    ~/.bash_alias: bash_alias
+    ~/.bash_profile: bash_profile
+    ~/.bashrc: bashrc
+    ~/.gitconfig: gitconfig
 
 - shell:
-- [git submodule update --init --recursive, Installing submodules]
+  - [git submodule update --init --recursive, Installing submodules]
