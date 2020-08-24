@@ -1,0 +1,10 @@
+alias gst="git status"
+alias gl="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --graph --color"
+
+alias 'ls'='ls -GFlash'
+alias 'll'='ls -l'
+alias 'la'='ll'
+
+cdf() {  # short for cdfinder, go to directory currently open in Finder
+   cd "`osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)'`"
+}

@@ -1,0 +1,5 @@
+[user]
+	name = Paul Grau
+	email = paul@graycoding.com
+[core]
+	editor = code --wait
