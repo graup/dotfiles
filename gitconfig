@@ -3,3 +3,5 @@
 	email = paul@graycoding.com
 [core]
 	editor = code --wait
+[alias]
+	pu = ![[ $(git config "branch.$(git symbolic-ref --short HEAD).merge") = '' ]] && git push -u origin $(git symbolic-ref --short HEAD) || git push
